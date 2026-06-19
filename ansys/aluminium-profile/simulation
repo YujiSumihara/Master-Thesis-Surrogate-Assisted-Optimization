@@ -1,0 +1,23 @@
+
+Simulation - aluminium-profile
+
+	Source: https://grabcad.com/library/aluminium-profile-20x20-6mm-slot-1
+	
+	Problem: 5D (symmetry), 8D (asymmetry)
+	
+	Parameters:
+	
+		Inner radius
+		r1: 0:0.1:3.5 mm	=> 35
+		Outer radius
+		r2: 0:1:9 mm		=> 9
+		Outer width
+		d1, d2: 0:0.1:2 mm  => 20
+		Inner width
+		d3, d4: 0:0.1:2 mm	=> 20
+		Core width
+		d5, d6: 0:0.1:2 mm	=> 20
+		Length (fixed)
+		l: 1:1:1000 mm
+	
+	

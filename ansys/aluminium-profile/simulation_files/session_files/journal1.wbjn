@@ -1,0 +1,46 @@
+# encoding: utf-8
+# Release 19.1
+SetScriptVersion(Version="19.1.103")
+template1 = GetTemplate(
+    TemplateName="Static Structural",
+    Solver="ANSYS")
+system1 = template1.CreateSystem()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+geometry1.SetFile(FilePath="C:/Users/JPassos/Desktop/Simulations/aluminium-profile-20x20/aluminium-profile/simulation.scdoc")
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+setupComponent1 = system1.GetComponent(Name="Setup")
+setupComponent1.Refresh()
+setup1 = system1.GetContainer(ComponentName="Setup")
+setup1.Edit()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Exit()
+Save(Overwrite=True)
+library1 = EngData.OpenLibrary(
+    Name="General Materials",
+    Source="General_Materials.xml")
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.ImportMaterial(
+    Name="Aluminum Alloy",
+    Source="General_Materials.xml")
+material1 = engineeringData1.GetMaterial(Name="Structural Steel")
+material1.Delete()
+modelComponent1.Update(AllDependencies=True)
+setup1.Edit()
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+modelComponent1.Update(AllDependencies=True)
+setup1.Edit()
+modelComponent1.UpdateUpstreamComponents()
+model1.Exit()
+modelComponent1.Clean()
+geometry1.SetFile(FilePath="C:/Users/JPassos/Desktop/Simulations/aluminium-profile-20x20/aluminium-profile/simulation.scdoc")
+modelComponent1.Refresh()
+model1.Edit()
+Save(Overwrite=True)
+model1.Exit()
+Save(Overwrite=True)

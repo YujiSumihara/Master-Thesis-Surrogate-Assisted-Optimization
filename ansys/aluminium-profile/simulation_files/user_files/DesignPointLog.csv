@@ -1,0 +1,53 @@
+﻿# 
+# This file contains the parameter values of the Design Points successfully updated by ANSYS Workbench.
+# Project name: simulation
+# Creation date: 08/07/2019 00:42:34
+# 
+# 08/07/2019 00:42:34
+# The parameters defined in the project are:
+# ,P1 - Group1 [mm],P2 - Group2 [mm],P3 - Group3 [mm],P4 - Group4 [mm],P5 - Group5 [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2,P3,P4,P5
+DP 0,0.81999999999999407,1.2600000000000007,1.3699999999999992,0.910000000000001,1.2499999999999933
+# 
+# A non parametric change occurred and invalidated design point results.
+# 08/07/2019 08:35:15
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 08/07/2019 22:05:22
+# 
+# 
+# 08/07/2019 22:20:06
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P17 - d4 [mm],P16 - d3 [mm],P15 - r1 [mm],P14 - d2 [mm],P13 - d1 [mm],P6 - Total Deformation Minimum [mm],P7 - Total Deformation Maximum [mm],P8 - Total Deformation Average [mm],P9 - Equivalent Stress Minimum [MPa],P10 - Equivalent Stress Maximum [MPa],P11 - Equivalent Stress Average [MPa],P18 - d5 [mm],P19 - d6 [mm],P20 - length [mm],P12 - r2 [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P17,P16,P15,P14,P13,P6,P7,P8,P9,P10,P11,P18,P19,P20,P12
+DP 0,1,1.0000000000000009,2,1,1,0,0.023336889449419852,0.011601424385641794,15.732296733741446,49.403286404393981,32.860335678939087,1.0000000000000031,1.0000000000000036,50,2
+# 
+# A non parametric change occurred and invalidated design point results.
+# 08/07/2019 22:26:51
+# 
+# 
+# 08/07/2019 23:07:19
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P17 - d5 [mm],P16 - d4 [mm],P15 - d3 [mm],P14 - d2 [mm],P13 - d1 [mm],P6 - Total Deformation Minimum [mm],P7 - Total Deformation Maximum [mm],P8 - Total Deformation Average [mm],P9 - Equivalent Stress Minimum [MPa],P10 - Equivalent Stress Maximum [MPa],P11 - Equivalent Stress Average [MPa],P18 - d6 [mm],P19 - r2 [mm],P20 - r1 [mm],P12 - length [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P17,P16,P15,P14,P13,P6,P7,P8,P9,P10,P11,P18,P19,P20,P12
+DP 0,0,0,0,0,0,0,0.014176723141959485,0.0069014501271919644,25.05848951451058,76.331128148696024,48.401770125927051,0,2.5000000000000004,2.5000000000000009,20
+# 
+# A non parametric change occurred and invalidated design point results.
+# 08/07/2019 23:10:51
+# 
+# 
+# 08/07/2019 23:22:41
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P26 - d3 [mm],P27 - d4 [mm],P28 - d5 [mm],P29 - d6 [mm],P30 - r2 [mm],P6 - Total Deformation Minimum [mm],P7 - Total Deformation Maximum [mm],P8 - Total Deformation Average [mm],P9 - Equivalent Stress Minimum [MPa],P10 - Equivalent Stress Maximum [MPa],P11 - Equivalent Stress Average [MPa],P25 - d2 [mm],P24 - d1 [mm],P23 - length [mm],P21 - SYS\Solid1 Mass [kg],P31 - r1 [mm],P22 - SYS\Solid1 Volume [mm^3]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P26,P27,P28,P29,P30,P6,P7,P8,P9,P10,P11,P25,P24,P23,P21,P31,P22
+DP 0,0,0,0,0,2.5000000000000004,0,0.0346925854527731,0.01730110166567295,26.080321406777315,70.899055928214509,48.955462086862276,0,0,50,0.0028025760155602603,2.5000000000000009,1011.7602944260867
+DP 0,1,1,2,2,1,0,0.0092832507550376486,0.0046165382459684417,5.6935886687308637,22.745970738093042,13.071552011778222,2,2,50,0.01044097510872782,1,3769.305093403545
