@@ -1,0 +1,38 @@
+﻿# 
+# This file contains the parameter values of the Design Points successfully updated by ANSYS Workbench.
+# Project name: simulation
+# Creation date: 08/06/2019 22:44:13
+# 
+# 08/06/2019 22:44:13
+# The parameters defined in the project are:
+# ,P1 - bar1 [mm],P2 - bar2_right [mm],P3 - bar2_left [mm],P4 - bar1_depth [mm],P5 - bar2_depth [mm],P6 - Total Deformation Minimum [mm],P7 - Total Deformation Maximum [mm],P8 - Total Deformation Average [mm],P9 - Equivalent Stress Minimum [MPa],P10 - Equivalent Stress Maximum [MPa],P11 - Equivalent Stress Average [MPa],P12 - Geometry Volume [mm^3],P13 - Geometry Mass [kg]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11,P12,P13
+DP 0,22.020000000000003,20.310000000000002,32.300000000000004,23.740000000000006,19.46,0,0.224658777361557,0.0404057839241109,3.810072723365E-07,77.8116281518924,8.16823726739831,106471.12,0.835798292
+# 
+# A non parametric change occurred and invalidated design point results.
+# 08/07/2019 09:15:37
+# 
+# 
+# 08/07/2019 09:31:04
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P1 - bar1_pos [mm],P2 - bar2_right [mm],P3 - bar2_left [mm],P4 - bar1_depth [mm],P5 - bar2_depth [mm],P6 - Total Deformation Minimum [mm],P7 - Total Deformation Maximum [mm],P8 - Total Deformation Average [mm],P9 - Equivalent Stress Minimum [MPa],P10 - Equivalent Stress Maximum [MPa],P11 - Equivalent Stress Average [MPa],P12 - Geometry Volume [mm^3],P13 - Geometry Mass [kg]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11,P12,P13
+DP 0,1,1,1,1,1,0,0.63087189659480269,0.10916217179597421,1.5773673718231005E-07,196.18198495023705,21.65733412669945,60807.999999999862,0.47734279999999896
+DP 0,20,1,1,1,1,0,0.45805063882547986,0.084921282247999025,1.0499189535562602E-06,167.63180682653447,18.055698745747947,60807.999999999862,0.47734279999999896
+# 
+# 08/07/2019 21:24:44
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P1 - bar1_pos [mm],P2 - bar2_right [mm],P3 - bar2_left [mm],P4 - bar1_depth [mm],P5 - bar2_depth [mm],P6 - Total Deformation Minimum [mm],P7 - Total Deformation Maximum [mm],P8 - Total Deformation Average [mm],P9 - Equivalent Stress Minimum [MPa],P10 - Equivalent Stress Maximum [MPa],P11 - Equivalent Stress Average [MPa],P12 - Geometry Volume [mm^3],P13 - Geometry Mass [kg]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11,P12,P13
+DP 0,35,20,20,30,30,0,0.024450674395245446,0.0033720032932094126,0.000271804434331108,26.317883483983621,2.5439978087285686,381647.99999999959,2.9959367999999968
+DP 0,0,0,0,0,0,0,0.79184423662557823,0.12352666714933772,4.7163419243229139E-08,241.01589705819484,26.54297949129564,54527.999999999905,0.42804479999999928
+# 
+# A non parametric change occurred and invalidated design point results.
+# 08/08/2019 22:53:17
+# 
