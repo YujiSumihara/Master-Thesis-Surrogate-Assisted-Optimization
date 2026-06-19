@@ -1,5 +1,3 @@
-# Master-Thesis-Surrogate-Assisted-Optimization
-
 # Master Thesis - Surrogate-Assisted Multiobjective Optimization
 
 ## Overview
