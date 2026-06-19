@@ -113,7 +113,7 @@ A structural optimization problem involving:
 * Minimization of structural mass
 * Maximization of safety factor
 
-### Plate with Hole
+### Placa
 
 A structural optimization benchmark involving:
 
