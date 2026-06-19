@@ -12,17 +12,6 @@ The repository includes implementations based on:
 * MOPSO (Multiobjective Particle Swarm Optimization)
 * MOEA/D (Multiobjective Evolutionary Algorithm based on Decomposition)
 
-## Repository Structure
-
-```text
-.
-├── MATLAB/        # Optimization framework source code
-├── ANSYS/         # ANSYS Workbench projects and simulation files
-├── CAD/           # CAD models used in the case studies
-├── Results/       # Generated optimization results
-└── Documentation/ # Additional documentation and publications
-```
-
 ## Requirements
 
 The framework was developed and tested using:
