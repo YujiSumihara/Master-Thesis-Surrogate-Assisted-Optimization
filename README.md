@@ -1,4 +1,4 @@
-# Master Thesis - Surrogate-Assisted Multiobjective Optimization
+# Master Thesis - Exploração do método Surrogate em otimização estrutural de modelos CAD utilizando algoritmos bioinspirados
 
 ## Overview
 
