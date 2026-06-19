@@ -62,7 +62,7 @@ Verify that:
 * The project paths are correctly configured.
 * ANSYS can be executed from MATLAB.
 
-Update any local paths if necessary.
+Update any local paths if necessary (run_experiment_0_3_config_only.m and run_experiment_2_3_config_only.m mainly).
 
 ### Step 3 – Select the Case Study
 
@@ -95,7 +95,8 @@ Execute the corresponding MATLAB script.
 For example:
 
 ```matlab
-run_compare_mode_mopso_Example_adjusted
+run_compare_mode_mopso_moead_Placa.m
+run_compare_mode_mopso_moead_Coffee.m
 ```
 
 or the equivalent script associated with the selected experiment.
