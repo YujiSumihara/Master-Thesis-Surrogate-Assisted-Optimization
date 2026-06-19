@@ -135,6 +135,10 @@ The proposed methodology integrates:
 * Multiobjective evolutionary optimization
 * Finite Element Analysis (FEA)
 
+## Running an Optimization Experiment by youself
+
+This repository considers the repeatability of the problem under study, however if you wish to perform the most accurate analysis possible, from the creation of new seeds and backups, you must modify the run_experiment_0_3_config_only.m and run_experiment_2_3_config_only.m files in the areas Config.Surrogates.Seed.Flag = true; making it false, Config.Metaheuristic.Seed.Flag = true; making it false, and Config.Database.Overwrite = false; making it true.
+
 ## Citation
 
 If this repository contributes to your research, please cite the associated Master's thesis and any related publications.
