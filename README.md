@@ -71,7 +71,7 @@ Choose the desired case study and ANSYS project.
 Examples include:
 
 * Coffee Table
-* Plate with Hole
+* Placa
 
 ### Step 4 – Configure the Optimization Parameters
 
