@@ -137,7 +137,7 @@ The proposed methodology integrates:
 
 ## Running an Optimization Experiment by Youself
 
-This repository considers the repeatability of the problem under study, however if you wish to perform the most accurate analysis possible, from the creation of new seeds and backups, you must modify the run_experiment_0_3_config_only.m and run_experiment_2_3_config_only.m files in the areas Config.Surrogates.Seed.Flag = true; making it false, Config.Metaheuristic.Seed.Flag = true; making it false, and Config.Database.Filename  = 'Example_debug.mat', creating a new name for you database.
+This repository considers the repeatability of the problem under study, however if you wish to perform the most accurate analysis possible, from the creation of new seeds and backups, you must modify the run_experiment_0_3_config_only.m and run_experiment_2_3_config_only.m files in the areas Config.Surrogates.Seed.Flag = true; making it false, Config.Metaheuristic.Seed.Flag = true; making it false, and Config.Database.Filename  = 'Example_debug.mat', creating a new name for you database, for example: Config.Database.Filename  = 'mydatabasePlaca.mat';
 
 ## Citation
 
