@@ -1,0 +1,26 @@
+# encoding: utf-8
+# Release 19.0
+SetScriptVersion(Version="19.0.136")
+system1 = GetSystem(Name="SYS")
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+designPoint1 = Parameters.GetDesignPoint(Name="0")
+parameter1 = Parameters.GetParameter(Name="P23")
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="1 [mm]")
+backgroundSession1 = UpdateAllDesignPoints(DesignPoints=[designPoint1])
+parameter2 = Parameters.GetParameter(Name="P20")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="13 [mm]")
+parameter3 = Parameters.GetParameter(Name="P21")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="76 [mm]")
+parameter4 = Parameters.GetParameter(Name="P22")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="17 [mm]")
+backgroundSession2 = UpdateAllDesignPoints(DesignPoints=[designPoint1])
+Save(Overwrite=True)

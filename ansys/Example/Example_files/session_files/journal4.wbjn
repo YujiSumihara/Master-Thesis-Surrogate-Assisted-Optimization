@@ -1,0 +1,62 @@
+# encoding: utf-8
+# Release 19.0
+SetScriptVersion(Version="19.0.136")
+system1 = GetSystem(Name="Geom")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+template1 = GetTemplate(TemplateName="Geometry")
+system2 = template1.CreateSystem(
+    Position="Below",
+    RelativeTo=system1)
+geometry2 = system2.GetContainer(ComponentName="Geometry")
+geometry2.Edit(IsSpaceClaimGeometry=True)
+geometry2.Exit()
+geometry1.Stop()
+geometry1.SetFile(FilePath="C:/Users/JPassos/Desktop/Mestrado/Pesquisa/MFEA/Geometry/Placa.scdoc")
+system1.Update(AllDependencies=True)
+system2.Delete()
+designPoint1 = Parameters.GetDesignPoint(Name="0")
+backgroundSession1 = UpdateAllDesignPoints(DesignPoints=[designPoint1])
+system3 = GetSystem(Name="SYS")
+model1 = system3.GetContainer(ComponentName="Model")
+model1.Edit()
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+modelComponent1 = system3.GetComponent(Name="Model")
+modelComponent1.Update(AllDependencies=True)
+system4 = GetSystem(Name="SYS 1")
+setup1 = system4.GetContainer(ComponentName="Setup")
+setup1.Edit()
+parameter1 = Parameters.GetParameter(Name="P23")
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="2 [mm]")
+parameter2 = Parameters.GetParameter(Name="P19")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="2 [mm]")
+parameter3 = Parameters.GetParameter(Name="P20")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="12 [mm]")
+Save(Overwrite=True)
+backgroundSession2 = UpdateAllDesignPoints(DesignPoints=[designPoint1])
+results1 = system4.GetContainer(ComponentName="Results")
+results1.Edit()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="5 [mm]")
+backgroundSession3 = UpdateAllDesignPoints(DesignPoints=[designPoint1])
+results1.Edit()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="2 [mm]")
+model1.Exit()
+backgroundSession4 = UpdateAllDesignPoints(DesignPoints=[designPoint1])
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="3 [mm]")
+backgroundSession5 = UpdateAllDesignPoints(DesignPoints=[designPoint1])
+results1.Edit()
+model1.Exit()
+Save(Overwrite=True)

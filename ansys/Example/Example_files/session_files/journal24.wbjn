@@ -1,0 +1,36 @@
+# encoding: utf-8
+# Release 19.1
+SetScriptVersion(Version="19.1.103")
+system1 = GetSystem(Name="SYS")
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+favorites1 = EngData.LoadFavoriteItems()
+library1 = EngData.OpenLibrary(
+    Name="General Materials",
+    Source="General_Materials.xml")
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.ImportMaterial(
+    Name="Aluminum Alloy",
+    Source="General_Materials.xml")
+EngData.EnableFilter(Enable=False)
+material1 = engineeringData1.GetMaterial(Name="Structural Steel")
+material1.SetSuppression(Suppressed=True)
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+model1.Exit()
+geometry1.Exit()
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1.Edit()
+Save(Overwrite=True)
+model1.Exit()
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+modelComponent1.Refresh()
+model1.Edit()
+model1.Exit()
+model1.Edit()
+Save(Overwrite=True)
+model1.Exit()
+Save(Overwrite=True)
+Save(Overwrite=True)

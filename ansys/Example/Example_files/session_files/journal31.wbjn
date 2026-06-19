@@ -1,0 +1,59 @@
+# encoding: utf-8
+# Release 19.1
+SetScriptVersion(Version="19.1.103")
+designPoint1 = Parameters.CreateDesignPoint()
+parameter1 = Parameters.GetParameter(Name="P1")
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="4 [mm]")
+parameter2 = Parameters.GetParameter(Name="P2")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="13 [mm]")
+parameter3 = Parameters.GetParameter(Name="P3")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="76 [mm]")
+parameter4 = Parameters.GetParameter(Name="P4")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="17 [mm]")
+boolean1 = CheckPartialUpdateAndRetainPartialUpdatePropertiesSetConsistently()
+backgroundSession1 = UpdateAllDesignPoints(DesignPoints=[designPoint1])
+ClearMessages()
+system1 = GetSystem(Name="SYS")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+geometry1.Edit(IsSpaceClaimGeometry=True)
+model1.Exit()
+model1.Edit()
+model1.Exit()
+geometry1.Exit()
+modelComponent1.Refresh()
+model1.Edit()
+model1.Exit()
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+modelComponent1.Refresh()
+model1.Edit()
+model1.Exit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+Archive(
+    FilePath="C:/Users/Yuji/Desktop/MATLAB/ansys/Example/Example.wbpz",
+    IncludeExternalImportedFiles=True)
+ClearMessages()
+Save(Overwrite=True)
+boolean2 = CheckPartialUpdateAndRetainPartialUpdatePropertiesSetConsistently()
+backgroundSession1 = UpdateAllDesignPoints(DesignPoints=[designPoint1])
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+Refresh()
+Save(Overwrite=True)
+designPoint1.Delete()
+Save(Overwrite=True)

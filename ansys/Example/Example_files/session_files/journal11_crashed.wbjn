@@ -1,0 +1,261 @@
+# encoding: utf-8
+# Release 19.0
+SetScriptVersion(Version="19.0.136")
+designPoint1 = Parameters.GetDesignPoint(Name="0")
+parameter1 = Parameters.GetParameter(Name="P19")
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="2.0 [mm]")
+parameter2 = Parameters.GetParameter(Name="P20")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="7.0 [mm]")
+parameter3 = Parameters.GetParameter(Name="P21")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="88.0 [mm]")
+parameter4 = Parameters.GetParameter(Name="P22")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="19.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="2.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="12.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="84.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="23.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="2.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="14.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="76.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="20.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="3.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="7.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="111.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="24.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="3.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="9.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="64.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="27.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="3.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="10.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="80.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="18.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="3.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="11.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="33.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="17.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="3.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="13.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="99.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="24.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="3.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="15.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="91.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="20.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="3.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="15.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="95.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="21.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="4.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="5.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="44.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="25.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="4.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="7.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="37.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="22.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="4.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="8.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="21.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="25.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="4.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="9.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="103.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="28.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="4.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="11.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="56.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="28.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="4.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="12.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="72.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="18.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="4.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="13.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="25.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="21.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="5.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="6.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="41.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="24.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="5.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="6.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="60.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="26.0 [mm]")
+Update()
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="5.0 [mm]")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="8.0 [mm]")

@@ -1,0 +1,222 @@
+﻿# 
+# This file contains the parameter values of the Design Points successfully updated by ANSYS Workbench.
+# Project name: Example
+# Creation date: 05/30/2018 19:54:55
+# 
+# 05/30/2018 19:54:55
+# The parameters defined in the project are:
+# ,P1 - H1 [mm],P2 - Y [mm],P3 - X [mm],P4 - R1 [mm],P5 - Volume [mm^3],P6 - Mass [kg],P7 - Mesh Metric STD,P8 - Mesh Metric AVG,P9 - Mesh Metric MAX,P10 - Mesh Metric MIN,P11 - Mesh Nodes,P12 - Mesh Elements,P13 - Equivalent Stress Average [MPa],P14 - Equivalent Stress Maximum [MPa],P15 - Equivalent Stress Minimum [MPa],P16 - Total Deformation Average [mm],P17 - Total Deformation Maximum [mm],P18 - Total Deformation Minimum [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11,P12,P13,P14,P15,P16,P17,P18
+DP 0,15,20,20,6,27178.539967061519,0.075284555708760414,0.061365133649776291,0.95861375708170549,0.98741806216178318,0.57379364150354051,10351,2114,5.802072668364012,30.426916367681969,0.022785324646296883,0.0077060332812958531,0.016469000027397852,0
+# 
+# A non parametric change occurred and invalidated design point results.
+# 06/08/2018 14:43:26
+# 
+# 
+# 06/08/2018 15:34:59
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P22 - X [mm],P21 - R1 [mm],P20 - H1_Upper [mm],P19 - H1_Lower [mm],P5 - Volume [mm^3],P6 - Mass [kg],P7 - Mesh Metric STD,P8 - Mesh Metric AVG,P9 - Mesh Metric MAX,P10 - Mesh Metric MIN,P11 - Mesh Nodes,P12 - Mesh Elements,P13 - Equivalent Stress Average [MPa],P14 - Equivalent Stress Maximum [MPa],P15 - Equivalent Stress Minimum [MPa],P16 - Total Deformation Average [mm],P17 - Total Deformation Maximum [mm],P18 - Total Deformation Minimum [mm],P23 - Y [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P22,P21,P20,P19,P5,P6,P7,P8,P9,P10,P11,P12,P13,P14,P15,P16,P17,P18,P23
+DP 0,19.999999999999996,10,9,9,21992.016359304758,0.06091788531527418,0.10666352877467317,0.807687119882561,0.99970339023110155,0.28690524386495858,22197,13415,6.1932633085882252,38.353814888109696,0.03891159915154465,0.0085284350800126953,0.027990243722457574,0,17.5
+# 
+# A non parametric change occurred and invalidated design point results.
+# 06/08/2018 15:40:05
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 06/08/2018 16:18:58
+# 
+# 
+# 06/08/2018 16:37:48
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P23 - Body Sizing Element Size [mm],P5 - Volume [mm^3],P6 - Mass [kg],P7 - Mesh Metric STD,P8 - Mesh Metric AVG,P9 - Mesh Metric MAX,P10 - Mesh Metric MIN,P11 - Mesh Nodes,P12 - Mesh Elements,P13 - Equivalent Stress Average [MPa],P14 - Equivalent Stress Maximum [MPa],P15 - Equivalent Stress Minimum [MPa],P16 - Total Deformation Average [mm],P17 - Total Deformation Maximum [mm],P18 - Total Deformation Minimum [mm],P22 - Y [mm],P21 - X [mm],P20 - R1 [mm],P19 - H1 [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P23,P5,P6,P7,P8,P9,P10,P11,P12,P13,P14,P15,P16,P17,P18,P22,P21,P20,P19
+DP 0,2,12394.159385936391,0.034331821499043805,0.041958713866281042,0.76485479451794491,0.92966837550619053,0.40689146564430478,18848,3244,43.959514386148619,325.19350452377023,0.0021899050261270235,0.27696824990065133,0.6296668717674494,0,20.000000000000004,74.999999999999986,12,2
+# 
+# A non parametric change occurred and invalidated design point results.
+# 06/08/2018 16:49:22
+# 
+DP 0,5,12394.159385936391,0.034331821499043805,0.063307255475424568,0.62987329917419377,0.74931673737897109,0.37299676322242609,2160,273,19.113901579386209,127.50345101443931,0.0022464525046085489,0.107167093469149,0.25156675526985,0,20.000000000000004,74.999999999999986,12,2
+# 
+# A non parametric change occurred and invalidated design point results.
+# 06/08/2018 16:55:14
+# 
+DP 0,2,12394.159385936391,0.034331821499043805,0.041958713866281042,0.76485479451794491,0.92966837550619053,0.40689146564430478,18848,3244,17.58380574643882,130.0773994048389,0.00087596200349483,0.11078729991408909,0.25186674845217444,0,20.000000000000004,74.999999999999986,12,2
+DP 0,3,12394.159385936391,0.034331821499043805,0.058014774336998982,0.882971878349509,0.97324577762741848,0.53623193212001063,5408,712,18.19499248406839,132.79775020213506,0.0010091592468224452,0.11180358414486606,0.25182962886582971,0,20.000000000000004,74.999999999999986,12,2
+# 
+# 06/12/2018 14:43:36
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P23 - Body Sizing Element Size [mm],P5 - Volume [mm^3],P6 - Mass [kg],P7 - Mesh Metric STD,P8 - Mesh Metric AVG,P9 - Mesh Metric MAX,P10 - Mesh Metric MIN,P11 - Mesh Nodes,P12 - Mesh Elements,P13 - Equivalent Stress Average [MPa],P14 - Equivalent Stress Maximum [MPa],P15 - Equivalent Stress Minimum [MPa],P16 - Total Deformation Average [mm],P17 - Total Deformation Maximum [mm],P18 - Total Deformation Minimum [mm],P22 - Y [mm],P21 - X [mm],P20 - R1 [mm],P19 - H1 [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P23,P5,P6,P7,P8,P9,P10,P11,P12,P13,P14,P15,P16,P17,P18,P22,P21,P20,P19
+DP 0,3,23770.499582362292,0.065844283843143558,0.05324652519768068,0.88368302838680679,0.9612009816421816,0.58194113537831682,8221,1370,13.334535608670826,84.00444933103978,0.0020494101717359521,0.080155121058827064,0.20210639881759962,0,25,55,15,4
+# 
+# 02/03/2019 19:09:51
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P23 - Body Sizing Element Size [mm],P5 - Volume [mm^3],P6 - Mass [kg],P7 - Mesh Metric STD,P8 - Mesh Metric AVG,P9 - Mesh Metric MAX,P10 - Mesh Metric MIN,P11 - Mesh Nodes,P12 - Mesh Elements,P13 - Equivalent Stress Average [MPa],P14 - Equivalent Stress Maximum [MPa],P15 - Equivalent Stress Minimum [MPa],P16 - Total Deformation Average [mm],P17 - Total Deformation Maximum [mm],P18 - Total Deformation Minimum [mm],P22 - Y [mm],P21 - X [mm],P20 - R1 [mm],P19 - H1 [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P23,P5,P6,P7,P8,P9,P10,P11,P12,P13,P14,P15,P16,P17,P18,P22,P21,P20,P19
+DP 0,1,12394.159385936391,0.034331821499043805,0.018653016911995241,0.90310895922051138,0.98479245852735942,0.56988773994867914,97224,18891,17.327144929492487,130.18653382319533,0.00040229451308875132,0.11179800242281691,0.25190088656433657,0,20.000000000000004,74.999999999999986,12,2
+DP 0,1,12237.091211282655,0.033896742655252957,0.019370516194122462,0.902435632718869,0.96153807985966611,0.648994407744901,95625,18558,18.616563612621274,129.95659671265378,0.00014057883102098302,0.11853697509258639,0.27343267759100326,0,17,76,13,2
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/23/2026 11:45:24
+# 
+# 
+# 05/23/2026 11:49:56
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P23 - Body Sizing Element Size [mm],P5 - Volume [mm^3],P6 - Mass [kg],P7 - Mesh Metric STD,P8 - Mesh Metric AVG,P9 - Mesh Metric MAX,P10 - Mesh Metric MIN,P11 - Mesh Nodes,P12 - Mesh Elements,P13 - Equivalent Stress Average [MPa],P14 - Equivalent Stress Maximum [MPa],P15 - Equivalent Stress Minimum [MPa],P16 - Total Deformation Average [mm],P17 - Total Deformation Maximum [mm],P18 - Total Deformation Minimum [mm],P22 - Y [mm],P21 - X [mm],P20 - R1 [mm],P19 - H1 [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P23,P5,P6,P7,P8,P9,P10,P11,P12,P13,P14,P15,P16,P17,P18,P22,P21,P20,P19
+DP 1,1,30985.398464840982,0.085829553747609533,0.019753440105154309,0.97413536346462559,0.98974016584155677,0.691353567863456,173811,37506,2.9344657412153561,38.387165117472449,3.0961695741222727E-06,0.019820658729177303,0.034057456579981084,0,20,115,12,5
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/23/2026 17:14:44
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/23/2026 18:40:21
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/23/2026 18:55:14
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/23/2026 19:05:54
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/23/2026 19:09:29
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/23/2026 19:13:54
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/23/2026 19:28:56
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/23/2026 19:40:54
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/24/2026 18:46:05
+# 
+# 
+# 05/24/2026 19:35:10
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P5 - Geometry Volume [m^3],P13 - Equivalent Stress Minimum [Pa],P12 - Mesh Standard Deviation,P11 - Mesh Average,P10 - Mesh Max,P9 - Mesh Min,P8 - Mesh Elements,P7 - Mesh Nodes,P6 - Geometry Mass [kg],P18 - Total Deformation Average [m],P17 - Total Deformation Maximum [m],P16 - Total Deformation Minimum [m],P15 - Equivalent Stress Average [Pa],P14 - Equivalent Stress Maximum [Pa],P1 - H1 [mm],P2 - R1 [mm],P3 - X [mm],P4 - Y [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P13,P12,P11,P10,P9,P8,P7,P6,P18,P17,P16,P15,P14,P1,P2,P3,P4
+DP 1,1.9005929309178447E-05,220.02902121397688,0.087289717282203014,0.58484917279461068,0.75406049844575351,0.1470315796317759,117,1003,0.1491965450770508,1.1669958244504781E-05,2.5740148462915184E-05,0,7371784.6794548277,47322847.343621351,3,9.9999999999999982,100,25
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/24/2026 19:37:21
+# 
+# 
+# 05/24/2026 19:49:29
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P5 - Geometry Volume [m^3],P13 - Equivalent Stress Minimum [Pa],P12 - Mesh Standard Deviation,P11 - Mesh Average,P10 - Mesh Max,P9 - Mesh Min,P8 - Mesh Elements,P7 - Mesh Nodes,P6 - Geometry Mass [kg],P18 - Total Deformation Average [m],P17 - Total Deformation Maximum [m],P16 - Total Deformation Minimum [m],P15 - Equivalent Stress Average [Pa],P14 - Equivalent Stress Maximum [Pa],P1 - H1 [mm],P2 - R1 [mm],P3 - X [mm],P4 - Y [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P13,P12,P11,P10,P9,P8,P7,P6,P18,P17,P16,P15,P14,P1,P2,P3,P4
+DP 0,1.2237091211282655E-05,10386.01585071197,0.055927920460595436,0.4487619403520593,0.52974041986354747,0.20467917342699368,127,1073,0.096061166008568843,3.9561246825230891E-05,9.6361523117217073E-05,0,22520383.09387644,115307106.41512546,2,13,76,17
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/24/2026 19:58:41
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/24/2026 20:17:16
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/24/2026 21:03:17
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/24/2026 21:12:00
+# 
+# 
+# 05/24/2026 21:40:06
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P5 - Geometry Volume [m^3],P13 - Equivalent Stress Minimum [Pa],P12 - Mesh Standard Deviation,P11 - Mesh Average,P10 - Mesh Max,P9 - Mesh Min,P8 - Mesh Elements,P7 - Mesh Nodes,P6 - Geometry Mass [kg],P18 - Total Deformation Average [m],P17 - Total Deformation Maximum [m],P16 - Total Deformation Minimum [m],P15 - Equivalent Stress Average [Pa],P14 - Equivalent Stress Maximum [Pa],P1 - H1 [mm],P2 - R1 [mm],P3 - X [mm],P4 - Y [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P13,P12,P11,P10,P9,P8,P7,P6,P18,P17,P16,P15,P14,P1,P2,P3,P4
+DP 1,1.3072743399111786E-05,0.41815015259611765,0.018185191611375353,0.90325891192908547,0.97965833854265039,0.65496671545727969,19833,101747,0.03621149921553965,2.6173502498527809E-05,4.7706074456492668E-05,0,4921819.2061382448,85613112.006945074,2,6,115,21
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/24/2026 21:47:10
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/24/2026 21:50:47
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/25/2026 08:13:12
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/25/2026 23:40:29
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/26/2026 22:26:01
+# 
+# 
+# 05/26/2026 23:03:40
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P5 - Geometry Volume [mm^3],P13 - Equivalent Stress Minimum [MPa],P12 - Mesh Standard Deviation,P11 - Mesh Average,P10 - Mesh Max,P9 - Mesh Min,P8 - Mesh Elements,P7 - Mesh Nodes,P6 - Geometry Mass [kg],P18 - Total Deformation Average [mm],P17 - Total Deformation Maximum [mm],P16 - Total Deformation Minimum [mm],P15 - Equivalent Stress Average [MPa],P14 - Equivalent Stress Maximum [MPa],P1 - H1 [mm],P2 - R1 [mm],P3 - X [mm],P4 - Y [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P13,P12,P11,P10,P9,P8,P7,P6,P18,P17,P16,P15,P14,P1,P2,P3,P4
+DP 1,24474.159506513803,0.00014879650144581237,0.050483542951583422,0.77422761252259353,0.99259268749415119,0.51771107152556961,6712,33950,0.067793421833043238,0.059205313731210581,0.13659094857700385,0,10.257793287944587,63.538119222679107,4,13,76,17
+# 
+# 05/28/2026 15:41:39
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P5 - Geometry Volume [mm^3],P13 - Equivalent Stress Minimum [MPa],P12 - Mesh Standard Deviation,P11 - Mesh Average,P10 - Mesh Max,P9 - Mesh Min,P8 - Mesh Elements,P7 - Mesh Nodes,P6 - Geometry Mass [kg],P18 - Total Deformation Average [mm],P17 - Total Deformation Maximum [mm],P16 - Total Deformation Minimum [mm],P15 - Equivalent Stress Average [MPa],P14 - Equivalent Stress Maximum [MPa],P1 - H1 [mm],P2 - R1 [mm],P3 - X [mm],P4 - Y [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P13,P12,P11,P10,P9,P8,P7,P6,P18,P17,P16,P15,P14,P1,P2,P3,P4
+DP 1,19345.221315766143,4.0715923443732681E-05,0.047752872063252891,0.769242724036885,0.97783002282888276,0.49644651553316077,5211,27526,0.053586263044672219,0.03420197751211719,0.069660170386530926,0,6.3338272657422214,56.671243561315308,3,8,101,18
+# 
+# A non parametric change occurred and invalidated design point results.
+# 05/28/2026 15:43:09
+# 
+# 
+# 05/28/2026 22:32:54
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P5 - Geometry Volume [mm^3],P13 - Equivalent Stress Minimum [MPa],P12 - Mesh Standard Deviation,P11 - Mesh Average,P10 - Mesh Max,P9 - Mesh Min,P8 - Mesh Elements,P7 - Mesh Nodes,P6 - Geometry Mass [kg],P18 - Total Deformation Average [mm],P17 - Total Deformation Maximum [mm],P16 - Total Deformation Minimum [mm],P15 - Equivalent Stress Average [MPa],P14 - Equivalent Stress Maximum [MPa],P1 - H1 [mm],P2 - R1 [mm],P3 - X [mm],P4 - Y [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P13,P12,P11,P10,P9,P8,P7,P6,P18,P17,P16,P15,P14,P1,P2,P3,P4
+DP 0,18808.008972002284,0.00010260279703241472,0.043300127519983009,0.77202154564273662,0.98744749830798961,0.527524502078507,5097,27055,0.052098184852446335,0.056003366206397613,0.11936633534513412,0,9.0209155556263418,71.7589970631179,3,11,86,24
+# 
+# A non parametric change occurred and invalidated design point results.
+# 06/15/2026 14:22:56
+# 
+# 
+# 06/17/2026 22:36:37
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P5 - Geometry Volume [mm^3],P13 - Equivalent Stress Minimum [MPa],P12 - Mesh Standard Deviation,P11 - Mesh Average,P10 - Mesh Max,P9 - Mesh Min,P8 - Mesh Elements,P7 - Mesh Nodes,P6 - Geometry Mass [kg],P18 - Total Deformation Average [mm],P17 - Total Deformation Maximum [mm],P16 - Total Deformation Minimum [mm],P15 - Equivalent Stress Average [MPa],P14 - Equivalent Stress Maximum [MPa],P1 - H1 [mm],P2 - R1 [mm],P3 - X [mm],P4 - Y [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P13,P12,P11,P10,P9,P8,P7,P6,P18,P17,P16,P15,P14,P1,P2,P3,P4
+DP 0,11885.235207687063,4.3024273243322725E-06,0.047769987377122278,0.77630507591575448,0.98192998970811463,0.517015090888075,3302,19415,0.032922101525293165,0.070185641996945575,0.11871828676912968,0,9.4410106936698366,101.98386687846644,2,15,115,28
+DP 0,19005.929309178446,9.1938804272975E-07,0.043792317999179681,0.77291249349224411,0.98350971594839087,0.51529430918936459,5154,27296,0.0526464241864243,0.023513670433268435,0.0421227096064028,0,4.3243277502677,50.270040022116042,3,10,113,28
+DP 0,31676.54884863074,3.9509653864063375E-07,0.047582733503932932,0.77446271851502058,0.97876751496425884,0.52910901660075693,8660,42194,0.08774404031070715,0.015576561111264261,0.028844948854606773,0,2.8479231158211324,30.304616916940549,5,10,110,28

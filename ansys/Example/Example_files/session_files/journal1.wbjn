@@ -1,0 +1,92 @@
+# encoding: utf-8
+# Release 19.0
+SetScriptVersion(Version="19.0.136")
+template1 = GetTemplate(TemplateName="Geometry")
+system1 = template1.CreateSystem()
+template2 = GetTemplate(TemplateName="Mechanical Model")
+geometryComponent1 = system1.GetComponent(Name="Geometry")
+system2 = template2.CreateSystem(
+    ComponentsToShare=[geometryComponent1],
+    Position="Right",
+    RelativeTo=system1)
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath="C:/Users/JPassos/Desktop/UNB/ANSYS/Example/Solid1.scdoc")
+Save(Overwrite=True)
+Save(Overwrite=True)
+geometryComponent1.Update(AllDependencies=True)
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+Save(Overwrite=True)
+modelComponent1 = system2.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system2.GetContainer(ComponentName="Model")
+model1.Edit()
+Save(Overwrite=True)
+template3 = GetTemplate(
+    TemplateName="Static Structural",
+    Solver="ANSYS")
+engineeringDataComponent1 = system2.GetComponent(Name="Engineering Data")
+geometryComponent2 = system2.GetComponent(Name="Geometry")
+system3 = template3.CreateSystem(
+    ComponentsToShare=[engineeringDataComponent1, geometryComponent2, modelComponent1],
+    Position="Right",
+    RelativeTo=system2)
+system3.DisplayText = "Scenario #1"
+Save(Overwrite=True)
+setup1 = system3.GetContainer(ComponentName="Setup")
+setup1.Edit()
+designPoint1 = Parameters.GetDesignPoint(Name="0")
+parameter1 = Parameters.GetParameter(Name="P1")
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="10 [mm]")
+Update()
+ClearMessages()
+parameter2 = Parameters.GetParameter(Name="P5")
+parameter2.DisplayText = "Volume"
+parameter3 = Parameters.GetParameter(Name="P6")
+parameter3.DisplayText = "Mass"
+parameter4 = Parameters.GetParameter(Name="P7")
+parameter4.DisplayText = "Mesh Std"
+parameter4.DisplayText = "Mesh STD"
+parameter5 = Parameters.GetParameter(Name="P8")
+parameter5.DisplayText = "Mesh AVG"
+parameter6 = Parameters.GetParameter(Name="P9")
+parameter6.DisplayText = "Mesh MAX"
+parameter7 = Parameters.GetParameter(Name="P10")
+parameter7.DisplayText = "Mesh MIN"
+parameter4.DisplayText = "Mesh Metric STD"
+parameter5.DisplayText = "Mesh Metric AVG"
+parameter6.DisplayText = "Mesh Metric MAX"
+parameter7.DisplayText = "Mesh Metric MIN"
+Save(Overwrite=True)
+model1.Exit()
+unitSystem1 = SetProjectUnitSystem(UnitSystemName="NMMTON_STANDARD")
+unitSystem2 = SetProjectUnitSystem(UnitSystemName="MKS_STANDARD")
+unitSystem3 = CreateUnitSystem(UnitSystemName="SI")
+unitSystem4 = SetProjectUnitSystem(UnitSystemName="NMM_STANDARD")
+unitSystem5 = SetProjectUnitSystem(UnitSystemName="NMMTON_STANDARD")
+unitSystem6 = SetProjectUnitSystem(UnitSystemName="NMM_STANDARD")
+SetUnitsDisplaySettings(DisplaySettings="DisplayValuesInProjectUnits")
+SetUnitsDisplaySettings()
+Update()
+setup1.Edit()
+model1.Exit()
+Save(Overwrite=True)
+favorites1 = EngData.LoadFavoriteItems()
+library1 = EngData.OpenLibrary(
+    Name="General Materials",
+    Source="General_Materials.xml")
+engineeringData1 = system2.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.ImportMaterial(
+    Name="Aluminum Alloy",
+    Source="General_Materials.xml")
+material1 = engineeringData1.GetMaterial(Name="Structural Steel")
+material1.Delete()
+modelComponent1.Refresh()
+model1.Edit()
+model1.Exit()
+Save(Overwrite=True)
+RunScript(FilePath="C:/Users/JPassos/Desktop/UNB/ANSYS/Example/multiple.py")
+RunScript(FilePath="C:/Users/JPassos/Desktop/UNB/ANSYS/Example/multiple.py")
+Save(Overwrite=True)

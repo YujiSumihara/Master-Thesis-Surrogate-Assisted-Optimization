@@ -1,0 +1,4 @@
+# encoding: utf-8
+# Release 19.0
+SetScriptVersion(Version="19.0.136")
+RunScript(FilePath="C:/Users/JPassos/Desktop/Mestrado/Pesquisa/MODE v4/multiple.py")

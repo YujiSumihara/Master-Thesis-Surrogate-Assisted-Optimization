@@ -1,0 +1,23 @@
+# encoding: utf-8
+# Release 19.1
+SetScriptVersion(Version="19.1.103")
+designPoint1 = Parameters.CreateDesignPoint()
+parameter1 = Parameters.GetParameter(Name="P19")
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="5 [mm]")
+parameter2 = Parameters.GetParameter(Name="P20")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="12 [mm]")
+parameter3 = Parameters.GetParameter(Name="P21")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="115 [mm]")
+parameter4 = Parameters.GetParameter(Name="P22")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="20 [mm]")
+boolean1 = CheckPartialUpdateAndRetainPartialUpdatePropertiesSetConsistently()
+backgroundSession1 = UpdateAllDesignPoints(DesignPoints=[designPoint1])
+Save(Overwrite=True)
